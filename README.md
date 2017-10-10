@@ -46,11 +46,11 @@
 			```
 		2. С сортировкой по убийстам
 			```php
-			$data = $api->leaderboard('bw', `kills`);
+			$data = $api->leaderboard('bw', 'kills');
 			```
 		3. Первые 10 записей
 			```php
-			$data = $api->leaderboard('bw', `kills`, 10);
+			$data = $api->leaderboard('bw', 'kills', 10);
 			```
 		* в случае отправки запроса без аргумента, вернется список таблиц рекордов
 	3. Онлайн
