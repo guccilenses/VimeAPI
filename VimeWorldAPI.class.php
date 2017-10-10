@@ -16,7 +16,7 @@ class VimeWorldAPI
 	 * @var string
 	*/
 	private $token;
- 
+
 	/*
 	 * @param string $token Токен
 	*/
@@ -24,12 +24,7 @@ class VimeWorldAPI
 	public function __construct($token = '') {
 		$this->token = $token;
 	}
-    /*
-     * Отправляет запрос на сервер vimeworld api
-     * @param integer [array] $id никнейм или ид игрока
-     * @param string $method метод для отправки
-    */
-    
+
     public function user($id = array(), $method = '') {
         if($method) return json_decode($this->curl('https://api.vime.world/user/'.$id.'/'.$method), true);
 		else {
