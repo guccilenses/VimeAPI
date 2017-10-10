@@ -2,7 +2,7 @@
 
 /*
 
- * VimeWorld API for api.vime.world
+ * VimeWorldAPI-Libs [api.vime.world]
  *
  * @author vk.com/tdiez
  * @version 0.1
