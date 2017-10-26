@@ -1,4 +1,5 @@
 <?
+	$start = microtime(true); 
 	require('VimeWorldAPI.class.php');
 	$api = new VimeWorldAPI();
 	
@@ -22,4 +23,5 @@
 	{
 		echo('	- '.$info['username'].'<br>');
 	}
+	echo 'Время выполнения скрипта: '.substr((microtime(true) - $start), 0, 6);
 ?>
