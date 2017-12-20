@@ -44,7 +44,7 @@ class VimeWorldAPI
 	}
 	
 	public function misc($method = 'games') {
-		return $this->curl('https://api.vime.world/online/'.$method);
+		return $this->curl('https://api.vime.world/misc/'.$method);
 	}
 	
 	public function test() {
