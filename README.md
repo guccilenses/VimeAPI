@@ -78,11 +78,7 @@
 		
         5. Получения ID игрока.
 	       Использование:
-	    <code>   	$data = $api->getid($LoganFrench);
-	        foreach($data as $info)
-	        {
-		echo(.$info['id'].'<br>');
-	        } </code>
+	    <code>$data = $api->getid($LoganFrench); echo(.$data['id'].'<br>');</code>
 		
         6. Получение статистики игрока. (Работает только с ID, можно воспользоваться функцией выше.)
 
